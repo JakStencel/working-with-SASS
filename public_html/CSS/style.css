@@ -16,12 +16,22 @@ and open the template in the editor.
     Created on : Feb 24, 2018, 7:04:41 AM
     Author     : Jakub
 */
+#header {
+  height: 150px;
+}
+
 h1 {
   font-size: 20px;
+  color: orange;
 }
 
 h2 {
   font-size: 15px;
+  color: orange;
+}
+
+a {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

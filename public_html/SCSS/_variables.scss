@@ -8,3 +8,9 @@ and open the template in the editor.
     Author     : Jakub
 */
 $sizeOfHeader: 20px;
+$color-orange: orange; //Podczas nazywania zmiennych sposujemy camelCase bądź "-" odzielające elementy nazwy
+$color-red: red; 
+$header-height: 150px;
+
+$header-color: $color-orange;
+$link-color: $color-red;

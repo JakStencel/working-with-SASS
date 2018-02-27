@@ -1,0 +1,1 @@
+In this commit examples of defining varables just were shown, and how to import file.scss to another file without causing straight compilation to CSS file.

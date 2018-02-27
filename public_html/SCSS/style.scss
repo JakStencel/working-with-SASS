@@ -9,9 +9,17 @@ and open the template in the editor.
 */
 @import "_variables.scss";
 
+#header{
+    height: $header-height;
+}
 h1{
     font-size: $sizeOfHeader;
+    color: $header-color;
 }
 h2{
     font-size: $sizeOfHeader - 5px;
+    color: $header-color;
+}
+a{
+    color: $link-color;
 }
