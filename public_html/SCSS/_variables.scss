@@ -10,7 +10,13 @@ and open the template in the editor.
 $sizeOfHeader: 20px;
 $color-orange: orange; //Podczas nazywania zmiennych sposujemy camelCase bądź "-" odzielające elementy nazwy
 $color-red: red; 
+$color-white: white;
+
 $header-height: 150px;
 
-$header-color: $color-orange;
-$link-color: $color-red;
+$header-color: $color-red;
+$link-color: $color-orange;
+//NAVIGATION
+$link-nav-color-hover: $color-white; //najpierw w nazwie link, bo podczas szukania wyskoczy wszystko związane z liniem - łatwiej szukać
+$link-nav-bg-color-default: green;
+$link-nav-bg-color-hover: blue;

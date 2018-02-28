@@ -22,16 +22,45 @@ and open the template in the editor.
 
 h1 {
   font-size: 20px;
-  color: orange;
+  color: red;
 }
 
 h2 {
   font-size: 15px;
-  color: orange;
+  color: red;
 }
 
 a {
-  color: red;
+  color: orange;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: block;
+  float: left;
+}
+nav li li {
+  display: none;
+  float: none;
+}
+nav li li a:hover {
+  background-color: blue;
+}
+nav li:hover li {
+  display: block;
+}
+nav a {
+  display: block;
+  padding: 6px 30px;
+  text-decoration: none;
+  background-color: green;
+}
+nav a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
