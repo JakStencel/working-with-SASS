@@ -7,33 +7,10 @@ and open the template in the editor.
     Created on : Feb 23, 2018, 2:13:56 PM
     Author     : Jakub
 */
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Feb 24, 2018, 7:04:41 AM
     Author     : Jakub
 */
-#header {
-  height: 150px;
-}
-
-h1 {
-  font-size: 20px;
-  color: red;
-}
-
-h2 {
-  font-size: 15px;
-  color: red;
-}
-
-a {
-  color: orange;
-}
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -61,6 +38,49 @@ nav a {
 }
 nav a:hover {
   color: white;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 12:11:28 PM
+    Author     : Jakub
+*/
+#header {
+  height: 150px;
+}
+
+h1 {
+  font-size: 20px;
+  color: red;
+}
+
+h2 {
+  font-size: 15px;
+  color: red;
+}
+
+a {
+  color: orange;
+}
+
+.akapit {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #FF0;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFC), to(#FF0));
+  background-image: -webkit-linear-gradient(left, #FFC, #FF0);
+  background-image: -moz-linear-gradient(left, #FFC, #FF0);
+  background-image: -ms-linear-gradient(left, #FFC, #FF0);
+  background-image: -o-linear-gradient(left, #FFC, #FF0);
+  background-image: linear-gradient(left, #FFC, #FF0);
+  background-repeat: repeat-x;
 }
 
 /*# sourceMappingURL=style.css.map */

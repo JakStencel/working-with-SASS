@@ -8,6 +8,8 @@ and open the template in the editor.
     Author     : Jakub
 */
 @import "_variables.scss";
+@import "_nav.scss";
+@import "_mixins.scss";
 
 #header{
     height: $header-height;
@@ -23,33 +25,9 @@ h2{
 a{
     color: $link-color;
 }
-nav {
-    ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    }
-    li{
-        display: block;
-        float: left;
-        li{
-            display: none;
-            float: none;     
-            a:hover{ //kiedy ktoś najedzie na link (a) zawarty wewnatrz li wewnątrz li)
-                background-color: $link-nav-bg-color-hover;
-            }
-        }
-        &:hover li{ // tak odnosimy się poprzez & do wyższego li i kolejno po najechaniu na nie jeżeli jest w nim li, to wyświetli sie jako block
-            display: block;
-        }
-    }
-    a{
-        display: block;
-        padding: 6px 30px;
-        text-decoration: none;
-        background-color: $link-nav-bg-color-default;
-        &:hover{ //odwołujemy sie do rodzica, czyli do a i po najechaniu na a zmieniamy coś
-            color: $link-nav-color-hover;
-        }
-    }
+.akapit{
+    width: 200px;
+    height: 50px;
+    @include textOverflow;
+    @include horizontalGradient(#FFC, #FF0);
 }

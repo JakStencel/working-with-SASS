@@ -1,21 +1,24 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Feb 24, 2018, 7:04:41 AM
     Author     : Jakub
 */
-$sizeOfHeader: 20px;
+//COLORS
 $color-orange: orange; //Podczas nazywania zmiennych sposujemy camelCase bądź "-" odzielające elementy nazwy
 $color-red: red; 
 $color-white: white;
 
-$header-height: 150px;
-
+//COLORS OF THE ELEMENTS
 $header-color: $color-red;
 $link-color: $color-orange;
+
+//color of the gtadients
+$startColor: white;
+$endColor: gray;
+
+//SIZE OF THE ELEMENTS
+$sizeOfHeader: 20px;
+$header-height: 150px;
+
 //NAVIGATION
 $link-nav-color-hover: $color-white; //najpierw w nazwie link, bo podczas szukania wyskoczy wszystko związane z liniem - łatwiej szukać
 $link-nav-bg-color-default: green;
