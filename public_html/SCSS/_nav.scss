@@ -30,7 +30,7 @@ nav {
         padding: 6px 30px;
         text-decoration: none;
         background-color: $link-nav-bg-color-default;
-        color: lighten($link-color, 15%);
+        color: lighten($link-color, 15%); //zastosowanie funkcji lighten - czyli rozjaśnienie o wskazany procent (tutaj 15%)
         &:hover{ //odwołujemy sie do rodzica, czyli do anchor i po najechaniu na anchor zmieniamy coś
             color: $link-nav-color-hover;
         }
