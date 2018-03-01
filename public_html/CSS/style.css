@@ -11,6 +11,38 @@ and open the template in the editor.
     Created on : Feb 24, 2018, 7:04:41 AM
     Author     : Jakub
 */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 12:11:28 PM
+    Author     : Jakub
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 5:20:59 PM
+    Author     : Jakub
+*/
+nav, .akapit {
+  display: block;
+  margin: 0px auto;
+}
+
+.akapit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+nav {
+  width: 734px;
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -27,6 +59,9 @@ nav li li {
 nav li li a:hover {
   background-color: blue;
 }
+nav li ul {
+  position: absolute;
+}
 nav li:hover li {
   display: block;
 }
@@ -35,6 +70,7 @@ nav a {
   padding: 6px 30px;
   text-decoration: none;
   background-color: green;
+  color: #ffc04d;
 }
 nav a:hover {
   color: white;
@@ -47,6 +83,35 @@ and open the template in the editor.
 */
 /* 
     Created on : Feb 28, 2018, 12:11:28 PM
+    Author     : Jakub
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2018, 5:20:59 PM
+    Author     : Jakub
+*/
+nav, .akapit {
+  display: block;
+  margin: 0px auto;
+}
+
+.akapit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2018, 5:18:56 PM
     Author     : Jakub
 */
 #header {
@@ -70,9 +135,6 @@ a {
 .akapit {
   width: 200px;
   height: 50px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   background-color: #FF0;
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#FFC), to(#FF0));
   background-image: -webkit-linear-gradient(left, #FFC, #FF0);
@@ -81,6 +143,8 @@ a {
   background-image: -o-linear-gradient(left, #FFC, #FF0);
   background-image: linear-gradient(left, #FFC, #FF0);
   background-repeat: repeat-x;
+  clear: left;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

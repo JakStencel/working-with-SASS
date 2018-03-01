@@ -1,4 +1,8 @@
+@import "_mixins.scss";
+@import "_placeholders.scss";
 nav {
+    width: 734px;
+    @extend %center;
     ul{
     margin: 0;
     padding: 0;
@@ -14,6 +18,9 @@ nav {
                 background-color: $link-nav-bg-color-hover;
             }
         }
+        ul{
+            position: absolute; //pozycjonowanie absolutne nie zajmuje miejsca - nie ma po rozsunieciu menu przesuniecia w dól wszystkiego
+        }
         &:hover li{ // tak odnosimy się poprzez & do wyższego li i kolejno po najechaniu na nie jeżeli jest w nim li, to wyświetli sie jako block
             display: block;
         }
@@ -23,7 +30,8 @@ nav {
         padding: 6px 30px;
         text-decoration: none;
         background-color: $link-nav-bg-color-default;
-        &:hover{ //odwołujemy sie do rodzica, czyli do a i po najechaniu na a zmieniamy coś
+        color: lighten($link-color, 15%);
+        &:hover{ //odwołujemy sie do rodzica, czyli do anchor i po najechaniu na anchor zmieniamy coś
             color: $link-nav-color-hover;
         }
     }

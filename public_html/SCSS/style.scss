@@ -10,6 +10,8 @@ and open the template in the editor.
 @import "_variables.scss";
 @import "_nav.scss";
 @import "_mixins.scss";
+@import "_placeholders.scss";
+@import "_functions.scss";
 
 #header{
     height: $header-height;
@@ -28,6 +30,9 @@ a{
 .akapit{
     width: 200px;
     height: 50px;
-    @include textOverflow;
+    @extend %textOverflow;
     @include horizontalGradient(#FFC, #FF0);
+    clear: left; //czyści floating
+    @extend %center;
+    font-size: nazwa_funkcji(10px);
 }
