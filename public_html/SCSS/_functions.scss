@@ -10,3 +10,13 @@ and open the template in the editor.
 @function nazwa_funkcji ($variable){
     @return $variable + 10px;
 }
+@function autoContrast($backgroundColor, $textColor){
+    @if lightness($backgroundColor) < 50%
+    {
+        @return lighten($textColor, 30%);
+    }
+    @else
+    {
+        @return darken($textColor, 40%);
+    }
+}

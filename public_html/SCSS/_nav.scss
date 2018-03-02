@@ -1,5 +1,6 @@
 @import "_mixins.scss";
 @import "_placeholders.scss";
+@import "_functions.scss";
 nav {
     width: 734px;
     @extend %center;
@@ -14,7 +15,7 @@ nav {
         li{
             display: none;
             float: none;     
-            a:hover{ //kiedy ktoś najedzie na link (a) zawarty wewnatrz li wewnątrz li)
+            a:hover{ //kiedy ktoś najedzie na link (a) zawarty wewnatrz li wewnątrz li
                 background-color: $link-nav-bg-color-hover;
             }
         }
@@ -30,7 +31,8 @@ nav {
         padding: 6px 30px;
         text-decoration: none;
         background-color: $link-nav-bg-color-default;
-        color: lighten($link-color, 15%); //zastosowanie funkcji lighten - czyli rozjaśnienie o wskazany procent (tutaj 15%)
+        color: autoContrast($link-nav-bg-color-default, $link-color);
+        //color: lighten($link-color, 15%); //zastosowanie funkcji lighten - czyli rozjaśnienie o wskazany procent (tutaj 15%)
         &:hover{ //odwołujemy sie do rodzica, czyli do anchor i po najechaniu na anchor zmieniamy coś
             color: $link-nav-color-hover;
         }
