@@ -37,13 +37,25 @@ a{
     font-size: nazwa_funkcji(10px);
 }
 .image{
-    @include rowGenerator(2, 2%);
+    @include rowGenerator(6, 2%);
     float: left; // sprawia że obrazki nie sa jeden pod drugim, a obok siebie
     background-color: #ececec;
     border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
     box-sizing: border-box; 
+    @media (max-width: 640px)
+    {
+        @include rowGenerator(2, 3%);
+    }
+    @media (min-width: 641px) and (max-width: 768px)
+    {
+        @include rowGenerator(3, 2%);
+    }
+/*    @media (min-width: 768px)
+    {
+        @include rowGenerator(6, 2%);   
+    }*/
     img{
         width: 100%; //dzięki temu obrazek dostosowuje się do szerokości diva (o klasie image), w którym sie znajduje
     }
