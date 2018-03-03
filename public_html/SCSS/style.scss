@@ -36,3 +36,19 @@ a{
     @extend %center;
     font-size: nazwa_funkcji(10px);
 }
+.image{
+    @include rowGenerator(2, 2%);
+    float: left; // sprawia że obrazki nie sa jeden pod drugim, a obok siebie
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; 
+    img{
+        width: 100%; //dzięki temu obrazek dostosowuje się do szerokości diva (o klasie image), w którym sie znajduje
+    }
+    .img_description{
+        display: inline-block;
+        color: #555;
+    }
+}

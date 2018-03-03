@@ -17,3 +17,8 @@ and open the template in the editor.
     background-image: linear-gradient(left, $startColor, $endColor);
     background-repeat: repeat-x;
 }
+@mixin rowGenerator($number_of_items, $margin) {
+    width: ((100% -($number_of_items*$margin))/$number_of_items);
+    margin-right: $margin;
+    margin-bottom: $margin;
+}    

@@ -156,4 +156,23 @@ a {
   font-size: 20px;
 }
 
+.image {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  float: left;
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.image img {
+  width: 100%;
+}
+.image .img_description {
+  display: inline-block;
+  color: #555;
+}
+
 /*# sourceMappingURL=style.css.map */
