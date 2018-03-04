@@ -7,6 +7,14 @@ and open the template in the editor.
     Created on : Feb 28, 2018, 12:11:28 PM
     Author     : Jakub
 */
+@mixin small-box($color) {
+ 
+    .small-box-#{$color}
+    {
+        @extend %sizeOfSmallBox;
+        color: $color;
+    }
+}
 @mixin horizontalGradient($startColor: #FFC, $endColor: #FFA) {
     background-color: $endColor;
     background-image: -webkit-gradient(linear, 0 0, 100% 0, from($startColor), to($endColor));

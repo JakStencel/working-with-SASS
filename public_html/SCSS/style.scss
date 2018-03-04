@@ -10,7 +10,6 @@ and open the template in the editor.
 @import "_variables.scss";
 @import "_nav.scss";
 @import "_mixins.scss";
-@import "_placeholders.scss";
 @import "_functions.scss";
 
 #header{
@@ -63,4 +62,9 @@ a{
         display: inline-block;
         color: #555;
     }
+}
+body{
+@include small-box(red);
+@include small-box(yellow);
+@include small-box(green);
 }

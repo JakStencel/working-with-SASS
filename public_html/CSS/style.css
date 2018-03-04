@@ -40,6 +40,11 @@ nav, .akapit {
   text-overflow: ellipsis;
 }
 
+body .small-box-red, body .small-box-yellow, body .small-box-green {
+  width: 50px;
+  height: 50px;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -94,26 +99,6 @@ and open the template in the editor.
     Created on : Feb 28, 2018, 12:11:28 PM
     Author     : Jakub
 */
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 28, 2018, 5:20:59 PM
-    Author     : Jakub
-*/
-nav, .akapit {
-  display: block;
-  margin: 0px auto;
-}
-
-.akapit {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -209,6 +194,16 @@ a {
 .image .img_description {
   display: inline-block;
   color: #555;
+}
+
+body .small-box-red {
+  color: red;
+}
+body .small-box-yellow {
+  color: yellow;
+}
+body .small-box-green {
+  color: green;
 }
 
 /*# sourceMappingURL=style.css.map */

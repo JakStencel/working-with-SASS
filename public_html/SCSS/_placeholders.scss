@@ -17,3 +17,7 @@ and open the template in the editor.
     white-space: nowrap; //nie zawijaj - wyświetli nam wszystko w jednej linii bez wzgledu na entery czy spacje
     text-overflow: ellipsis; //daje nam kropki
 }
+%sizeOfSmallBox{
+    width: 50px;
+    height: 50px;
+}
