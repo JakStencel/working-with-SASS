@@ -66,9 +66,17 @@ a{
 @include small-box(red);
 @include small-box(yellow);
 @include small-box(green);
-
-@for $i from 1 to 7{
+$header-list: h1 h2 h3 h4 h5 h6 '.cos-innego';
+$i: 0;
+/*@for $i from 1 to 7{
     h#{$i}{
         font-size: (30px - ($i* 3px));
     }
+}*/
+@each $current-header in $header-list{
+    #{$current-header}
+    {
+        font-size: 30px - $i * 3px;
+    }
+    $i: $i + 1px;
 }
