@@ -40,7 +40,7 @@ nav, .akapit {
   text-overflow: ellipsis;
 }
 
-body .small-box-red, body .small-box-yellow, body .small-box-green {
+.small-box-red, .small-box-yellow, .small-box-green {
   width: 50px;
   height: 50px;
 }
@@ -196,14 +196,40 @@ a {
   color: #555;
 }
 
-body .small-box-red {
+.small-box-red {
   color: red;
 }
-body .small-box-yellow {
+
+.small-box-yellow {
   color: yellow;
 }
-body .small-box-green {
+
+.small-box-green {
   color: green;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

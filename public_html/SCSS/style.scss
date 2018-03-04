@@ -63,8 +63,12 @@ a{
         color: #555;
     }
 }
-body{
 @include small-box(red);
 @include small-box(yellow);
 @include small-box(green);
+
+@for $i from 1 to 7{
+    h#{$i}{
+        font-size: (30px - ($i* 3px));
+    }
 }
