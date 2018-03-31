@@ -76,7 +76,7 @@ $i: 0;
 @each $current-header in $header-list{
     #{$current-header}
     {
-        font-size: 30px - $i * 3px;
+        font-size: (30px - ($i * 3px));
     }
-    $i: $i + 1px;
+    $i: $i + 1;
 }
