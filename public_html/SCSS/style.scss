@@ -63,9 +63,9 @@ a{
         color: #555;
     }
 }
-@include small-box(red);
-@include small-box(yellow);
-@include small-box(green);
+@include small-box("red");
+@include small-box("yellow");
+@include small-box("green");
 $header-list: h1 h2 h3 h4 h5 h6 '.cos-innego';
 $i: 0;
 /*@for $i from 1 to 7{

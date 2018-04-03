@@ -197,15 +197,15 @@ a {
 }
 
 .small-box-red {
-  color: red;
+  color: "red";
 }
 
 .small-box-yellow {
-  color: yellow;
+  color: "yellow";
 }
 
 .small-box-green {
-  color: green;
+  color: "green";
 }
 
 /*@for $i from 1 to 7{
